@@ -1,0 +1,19 @@
+  /* Style for the typewriter text */
+  #typewriter {
+    color: #8b4f61; /* Your desired color */
+    font-weight: bold;
+  }
+  
+  /* Blinking cursor effect */
+  #typewriter::after {
+    content: "|";
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+
+  

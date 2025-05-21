@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Page Title -->
+  <title>Kalkidan - Personal Portfolio </title>
+  <!-- Favicon Icon -->
+  <link rel="icon" href="assets/img/favicon.png" />
+  <!-- Stylesheets -->
+   <style>
+    .services-section .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 32px 0; /* 32px vertical gap between rows, 0px horizontal gap */
+}
+
+.services-section .col-lg-4,
+.services-section .col-md-6 {
+  padding: 0 16px; /* 16px left/right space between columns */
+  box-sizing: border-box;
+}
+
+/* Optional: reduce container width to avoid overflow from padding */
+.services-section .container > .row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+    /* Make the row a flex container and allow wrapping */
+/* Force all columns in the row to have equal height */
+.services-section .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+/* Make each column fill height of the row */
+.services-section .col-lg-4,
+.services-section .col-md-6 {
+  display: flex !important;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Make the card fill the column height */
+.services-section .st-iconbox.st-style1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 340px;
+  box-sizing: border-box;
+}
+
+/* Make the text area flexible so cards match height even with different text */
+.services-section .st-iconbox-text {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60px;
+  padding: 0 10px;
+  /* Prevent overflow */
+  word-break: break-word;
+}
+
+/* Remove extra margin below cards if present */
+.services-section .st-height-b30,
+.services-section .st-height-lg-b30,
+.services-section .st-height-b0,
+.services-section .st-height-lg-b30 {
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Responsive: stack cards on small screens */
+@media (max-width: 991px) {
+  .services-section .st-iconbox.st-style1 {
+    min-height: 240px;
+  }
+}
+@media (max-width: 767px) {
+  .services-section .row {
+    flex-direction: column;
+  }
+  .services-section .col-lg-4,
+  .services-section .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .services-section .st-iconbox.st-style1 {
+    min-height: 0;
+    margin-bottom: 32px;
+  }
+}
+.services-section .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 32px 0; 
+}
+
+.services-section .col-lg-4,
+.services-section .col-md-6 {
+  padding: 0 16px; 
+  box-sizing: border-box;
+}
+
+.services-section .container > .row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+   </style>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/lightgallery.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body id="home">
+  <!-- Start Header Section -->
+  <header class="st-site-header st-style1 st-sticky-header">
+    <div class="st-main-header">
+      <div class="container">
+        <div class="st-main-header-in">
+          <div class="st-main-header-left">
+            <a class="st-site-branding" href="index.html"><img src="assets/img/favicon.png" alt="Kalkidan"></a>
+          </div>
+          <div class="st-main-header-right">
+            <div class="st-nav">
+              <ul class="st-nav-list st-onepage-nav">
+                <li><a href="#home" class="st-smooth-move">Home</a></li>
+                <li><a href="#about" class="st-smooth-move">About</a></li>
+                <li><a href="#resume" class="st-smooth-move">Resume</a></li>
+                <li><a href="#CertificateandRecognition" class="st-smooth-move">Certificate & Recognition</a></li>
+                <li><a href="#portfolio" class="st-smooth-move">Portfolio</a></li>
+                <li><a href="#contact" class="st-smooth-move">Contact</a></li>
+              </ul>
+              <div class="sp-phone">
+                <svg viewBox="0 0 513.64 513.64">
+                  <g>
+                    <g>
+                      <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                    </g>
+                  </g>
+                </svg>
+                <div class="sp-phone-no">09 1980 5862</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
+
+  <!-- Start Hero Section -->
+<section class="st-hero st-style2 st-bg st-dynamic-bg st-ripple-version" data-src='assets/img/hero-bg-1.jpg'>
+  <div class="container">
+    <div class="st-hero-text">
+      <div class="st-author"><img src="assets/img/section/hero-img.jpg" alt="Kalkidan Zewdu"></div>
+      <h1>Hi, I am <span>Kalkidan Zewdu</span></h1>
+      <p>A digital marketing strategist passionate about crafting compelling brand stories and high-impact campaigns. With expertise in social media, content creation, and data-driven marketing, 
+      I help businesses grow by connecting them with their ideal audiences.</p>
+      <div class="st-hero-social-links">
+        <a href="https://linkedin.com/in/kalkidan-zewdu-0856" class="st-social-btn" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://instagram.com/kalkidan0856" class="st-social-btn" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@kellylandrandomvlog" class="st-social-btn" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- End Hero Seciton -->
+
+  <!-- Start About Seciton -->
+  <section id="about" class="st-about-wrap">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">ABOUT ME</h4>
+      <h2 class="st-section-heading-subtitle">ABOUT ME</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 wow fadeInLeft">
+        <div class="st-about-img-wrap">
+          <div class="st-about-img st-dynamic-bg st-bg" data-src="assets/img/section/about.jpg"></div>
+        </div>
+        <div class="st-height-b0 st-height-lg-b30"></div>
+      </div>
+      <div class="col-lg-6">
+        <div class="st-vertical-middle">
+          <div class="st-vertical-middle-in">
+            <div class="st-text-block st-style1">
+              <h2 class="st-text-block-title">Hi There! I'm Kalkidan Zewdu</h2>
+              <h4 class="st-text-block-subtitle">Digital Marketer & Brand Strategist</h4>
+              <div class="st-text-block-text">
+                <p class="st-highlight">
+                  I'm a results-driven marketer with experience across industries—from e-commerce (<strong>Habmart Online Shop</strong>) to corporate training (<strong>Merahyan Training Center</strong>).
+                </p>
+                <p>
+                  My journey began at <strong>Alpha Packaged Bottled Water</strong>, where I launched campaigns that boosted brand visibility. Later, at <strong>Benetsa Marketing</strong>, I developed tailored strategies for diverse clients, blending creativity with analytics.
+                </p>
+                <p>
+                  Now, I'm eager to bring my skills in audience engagement, campaign optimization, and strategic storytelling to your team. Let's turn your goals into reality!
+                </p>
+              </div>
+              <ul class="st-text-block-details st-mp0">
+                <li><span>Freelance</span> : <span>Available</span></li>
+                <li><span>Language</span> : <span>English, Amharic</span></li>
+                <li><span>Phone</span> : <span>0919805862</span></li>
+                <li><span>Email</span> : <span>Kalkidanzhani@gmail.com</span></li>
+                <li><span>From</span> : <span>Addis Ababa, Ethiopia</span></li>
+              </ul>
+              <div class="st-text-block-btn">
+                <a href="#" class="st-btn st-style1 st-color1">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- End About Seciton -->
+
+  <!-- Start Service Seciton -->
+<section class="services-section">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">SERVICES</h4>
+      <h2 class="st-section-heading-subtitle">SERVICES</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- Acting Coach Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <circle cx="12" cy="12" r="5"/>
+              <path d="M4 24c0-4.4 3.6-8 8-8s8 3.6 8 8v4H4v-4z"/>
+              <circle cx="28" cy="30" r="3.5"/>
+              <path d="M22 40c0-2.8 2.2-5 5-5s5 2.2 5 5v3H22v-3z"/>
+              <circle cx="44" cy="30" r="3.5"/>
+              <path d="M38 40c0-2.8 2.2-5 5-5s5 2.2 5 5v3H38v-3z"/>
+              <rect x="30" y="8" width="28" height="16" rx="2" ry="2"/>
+              <path d="M32 26h6v2h-6zM40 26h6v2h-6zM48 26h6v2h-6z"/>
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Acting Coach</h2>
+          <div class="st-iconbox-text">Elevate your customer support team with engaging, confident, and authentic communication technique.</div>
+        </div>
+        <div class="st-height-b30 st-height-lg-b30"></div>
+      </div><!-- .col -->
+
+      <!-- Contact Center Advisor Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <circle cx="14" cy="16" r="4" />
+              <path d="M6 26c0-3.3 2.7-6 6-6s6 2.7 6 6v3H6v-3z" />
+              <circle cx="50" cy="16" r="4" />
+              <path d="M42 26c0-3.3 2.7-6 6-6s6 2.7 6 6v3h-12v-3z" />
+              <path d="M22 20h12v2H22zM22 24h10v2H22zM22 28h8v2H22z" />
+              <path d="M30 34h12v2H30zM30 38h10v2H30zM30 42h8v2H30z" />
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Contact Center Advisor</h2>
+          <div class="st-iconbox-text">Provide exceptional customer support, resolve inquiries efficiently, and ensure client satisfaction.</div>
+        </div>
+        <div class="st-height-b30 st-height-lg-b30"></div>
+      </div><!-- .col -->
+
+      <!-- Digital Marketing Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <circle cx="20" cy="20" r="6" />
+              <path d="M28 34c0-4.42-3.58-8-8-8s-8 3.58-8 8v6h16v-6z" />
+              <path d="M52 18.5l2.2-1.3-2-3.5-2.5 1a10.5 10.5 0 0 0-2-1.1L47 12h-4l-.2 2.6a10.5 10.5 0 0 0-2 1.1l-2.5-1-2 3.5 2.2 1.3a10.5 10.5 0 0 0 0 2.2l-2.2 1.3 2 3.5 2.5-1a10.5 10.5 0 0 0 2 1.1L43 30h4l.2-2.6a10.5 10.5 0 0 0 2-1.1l2.5 1 2-3.5-2.2-1.3a10.5 10.5 0 0 0 0-2.2zM45 24a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+              <rect x="34" y="42" width="4" height="12" />
+              <rect x="40" y="38" width="4" height="16" />
+              <rect x="46" y="46" width="4" height="8" />
+              <rect x="52" y="40" width="4" height="14" />
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Digital Marketing & PR Specialist</h2>
+          <div class="st-iconbox-text">Develop and execute marketing campaigns, manage brand presence, and drive engagement through strategic digital channels.</div>
+        </div>
+        <div class="st-height-b30 st-height-lg-b30"></div>
+      </div><!-- .col -->
+
+      <!-- Content Creation Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <rect x="8" y="16" width="40" height="28" rx="4" ry="4" />
+              <circle cx="24" cy="30" r="6" fill="#fff" />
+              <rect x="14" y="10" width="8" height="6" rx="1" ry="1" />
+              <polygon points="50,22 62,30 50,38" fill="currentColor" />
+              <path d="M18 50l12-12 4 4-12 12h-4v-4zm20.2-9.2l2-2c.4-.4 1-.4 1.4 0l1.6 1.6c.4.4.4 1 0 1.4l-2 2z" />
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Content Creation</h2>
+          <div class="st-iconbox-text">Craft engaging and relevant content across platforms to inform, inspire, and connect with target audiences effectively.</div>
+        </div>
+        <div class="st-height-b30 st-height-lg-b30"></div>
+      </div><!-- .col -->
+
+      <!-- Sales Associate Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <circle cx="16" cy="16" r="6" />
+              <path d="M24 30c0-4.4-3.6-8-8-8s-8 3.6-8 8v6h16v-6z" />
+              <path d="M38 14h10a2 2 0 0 1 2 2v12h-14V16a2 2 0 0 1 2-2zm0 2v2h2v-2zm6 0v2h2v-2zm-8 4h12v6h-12z" />
+              <polyline points="28,48 34,42 40,44 48,36 56,38" fill="none" stroke="currentColor" stroke-width="2" />
+              <circle cx="28" cy="48" r="1.5" />
+              <circle cx="34" cy="42" r="1.5" />
+              <circle cx="40" cy="44" r="1.5" />
+              <circle cx="48" cy="36" r="1.5" />
+              <circle cx="56" cy="38" r="1.5" />
+              <path d="M34 10h20c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2h-10l-5 4v-4h-5c-1.1 0-2-.9-2-2V12c0-1.1.9-2 2-2z" />
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Sales Associate</h2>
+          <div class="st-iconbox-text">Drive sales by engaging customers, understanding their needs, and providing tailored product recommendations to enhance their shopping experience.</div>
+        </div>
+        <div class="st-height-b30 st-height-lg-b30"></div>
+      </div><!-- .col -->
+
+      <!-- Affiliate Marketing Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-iconbox st-style1">
+          <div class="st-iconbox-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="currentColor">
+              <path d="M20 44c-3.3 0-6-2.7-6-6 0-1.6.6-3.1 1.8-4.2l6-6a6 6 0 1 1 8.5 8.5l-2 2-2.8-2.8 2-2a2 2 0 1 0-2.8-2.8l-6 6a2 2 0 0 0 2.8 2.8l2-2 2.8 2.8-2 2A5.96 5.96 0 0 1 20 44z"/>
+              <path d="M48 12h-2v-2h-4v2h-2a2 2 0 0 0 0 4h6v2h-6v2h2v2h4v-2h2a2 2 0 0 0 0-4h-6v-2h6v-2z"/>
+              <rect x="36" y="40" width="2" height="8"/>
+              <rect x="40" y="36" width="2" height="12"/>
+              <rect x="44" y="32" width="2" height="16"/>
+              <rect x="48" y="28" width="2" height="20"/>
+              <circle cx="32" cy="32" r="3"/>
+              <circle cx="32" cy="32" r="6" fill="none" stroke="currentColor" stroke-width="1"/>
+              <circle cx="32" cy="32" r="10" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2,2"/>
+            </svg>
+          </div>
+          <h2 class="st-iconbox-title">Affiliate Marketing</h2>
+          <div class="st-iconbox-text">Promote products through strategic partnerships, track performance, and earn commissions by driving traffic and sales via referral links.</div>
+        </div>
+        <div class="st-height-b0 st-height-lg-b30"></div>
+      </div><!-- .col -->
+    </div>
+  </div>
+  <div class="st-height-b100 st-height-lg-b80"></div>
+</section>
+  <!-- End Service Seciton -->
+
+  <!-- Start Skill Seciton -->
+<section class="st-dark-bg">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">MY SKILLS</h4>
+      <h2 class="st-section-heading-subtitle">MY SKILLS</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- Left Side: Skill Description -->
+      <div class="col-lg-6">
+        <div class="st-skill-wrap">
+          <div class="st-skill-heading">
+            <h2 class="st-skill-title">All the skills that I have in that field of work are mentioned.</h2>
+            <div class="st-skill-subtitle">
+              <p style="margin-bottom: 1rem;">
+                My professional experience spans digital marketing, social media strategy, customer engagement, and content creation. Every skill listed reflects real-world expertise gained through hands-on roles in dynamic environments.
+              </p>
+              <p>
+                From data-driven decision-making to creative campaign development, I bring clarity, impact, and consistency to every project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Skills Progress Bars -->
+      <div class="col-lg-6">
+        <div class="st-height-b0 st-height-lg-b30"></div>
+        <div class="st-progressbar-wrap">
+          <!-- Column 1 -->
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Team Management</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Communication</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Digital Marketing & PR Specialist</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Feedback & Evaluation</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Performance Management</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Adobe Photoshop & Lightroom</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Sales & Marketing</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">ERP Software</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Conflict Resolution</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Social Media Content Creation</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">CRM</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Photography</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">96%</div>
+            </div>
+            <div class="st-progressbar" data-progress="96"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b20"></div>
+
+          <div class="st-single-progressbar">
+            <div class="st-progressbar-heading">
+              <h3 class="st-progressbar-title">Digital Asset Management</h3>
+              <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+            </div>
+            <div class="st-progressbar" data-progress="95"><div class="st-progressbar-in wow fadeInLeft"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="st-height-b100 st-height-lg-b80"></div>
+</section>
+  <!-- End Skill Seciton -->
+
+ <!-- Start Resume Section -->
+<section id="resume" class="st-dark-bg">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">RESUME</h4>
+      <h2 class="st-section-heading-subtitle">RESUME</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+    <div class="row">
+      <!-- Experience Column -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="st-resume-wrap">
+          <div class="st-resume-heading">
+            <img src="assets/img/icon/resume-icon1.png" alt="resume-icon">
+            <h2 class="st-resume-heading-title">Experience</h2>
+          </div>
+          <div class="st-height-b50 st-height-lg-b30"></div>
+          <div class="st-resume-timeline-wrap">
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">Ethio telecom</h3>
+              <div class="st-resume-timeline-duration">Jan 2020 - Present</div>
+              <h4 class="st-resume-timeline-subtitle">• Acting Coach</h4>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">Benetsa</h3>
+              <div class="st-resume-timeline-duration">June 2023 - Present</div>
+              <h4 class="st-resume-timeline-subtitle">• Digital Marketer</h4>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">Mersa Media Institute</h3>
+              <div class="st-resume-timeline-duration">August 2024 - Present</div>
+              <h4 class="st-resume-timeline-subtitle">• Media & Information Integrity Ambassador</h4>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">TikTok</h3>
+              <div class="st-resume-timeline-duration">January 2023 - Present</div>
+              <h4 class="st-resume-timeline-subtitle">• Content Creator</h4>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">K_Podcast</h3>
+              <div class="st-resume-timeline-duration">May 2024 - Present</div>
+              <h4 class="st-resume-timeline-subtitle">• Creator & Host</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Education Column -->
+      <div class="col-lg-6">
+        <div class="st-resume-wrap">
+          <div class="st-resume-heading">
+            <img src="assets/img/icon/resume-icon2.png" alt="resume-icon">
+            <h2 class="st-resume-heading-title">Education</h2>
+          </div>
+          <div class="st-height-b50 st-height-lg-b30"></div>
+          <div class="st-resume-timeline-wrap">
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">St. Mary's University</h3>
+              <div class="st-resume-timeline-duration">Sep 2017 – Aug 2020</div>
+              <h4 class="st-resume-timeline-subtitle">Bachelor's in Marketing Management</h4>
+              <div class="st-resume-timeline-text">
+                <p>Focused on digital marketing, branding, and consumer behavior analysis.</p>
+              </div>
+            </div>
+            <div class="st-height-b30 st-height-lg-b20"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">Queen's College</h3>
+              <div class="st-resume-timeline-duration">Oct 2023</div>
+              <h4 class="st-resume-timeline-subtitle">MBA - Master of Business Administration and Management</h4>
+              <div class="st-resume-timeline-text">
+                <p>Covered marketing foundations, market research, and sales strategies.</p>
+              </div>
+            </div>
+            <div class="st-height-b30 st-height-lg-b20"></div>
+            <div class="st-resume-timeline">
+              <h3 class="st-resume-timeline-title">St.Marry's University</h3>
+              <div class="st-resume-timeline-duration">2023</div>
+              <h4 class="st-resume-timeline-subtitle">Bachelor of Arts - BA, Marketing Management</h4>
+              <div class="st-resume-timeline-text">
+                <p>Improved workplace communication, writing skills, and presentations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Education Column -->
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </div>
+</section>
+<!-- End Resume Section -->
+
+  <!-- Start Portfolio Seciton -->
+  <section id="CertificateandRecognition">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">CERTIFICATES & RECOGNITION</h4>
+      <h2 class="st-section-heading-subtitle">CERTIFICATES & RECOGNITION</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- Certificate 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-portfolio-single st-style1 st-lightgallery">
+          <div class="st-portfolio-item">
+            <a href="assets/img/Cerificates's/1.jfif" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in">
+                <img src="assets/img/Cerificates's/1.jfif" alt="Do 2 Save Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>Certified of Do 2 Save</h5>
+                <p>Digital Training</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-portfolio-single st-style1 st-lightgallery">
+          <div class="st-portfolio-item">
+            <a href="assets/img/Cerificates's/2.jfif" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in">
+                <img src="assets/img/Cerificates's/2.jfif" alt="Contact Center Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>Contact Center</h5>
+                <p>Professionalism in Contact Center</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-portfolio-single st-style1 st-lightgallery">
+          <div class="st-portfolio-item">
+            <a href="assets/img/Cerificates's/3.jfif" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in">
+                <img src="assets/img/Cerificates's/3.jfif" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>Internship Completion</h5>
+                <p>Marketing</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-portfolio-single st-style1 st-lightgallery">
+          <div class="st-portfolio-item">
+            <a href="assets/img/Cerificates's/4.jfif" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in">
+                <img src="assets/img/Cerificates's/4.jfif" alt="Recognition Letter">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>Recognition Letter</h5>
+                <p>Digital Marketing Specialist</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="st-portfolio-single st-style1 st-lightgallery">
+          <div class="st-portfolio-item">
+            <a href="assets/img/Cerificates's/5.jfif" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in">
+                <img src="assets/img/Cerificates's/5.jfif" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>Internship Certificate</h5>
+                <p>Digital Marketing Specialist</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="st-portfolio-btn">
+          <a href="#" class="st-btn st-style1 st-color1">Load More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="st-height-b100 st-height-lg-b80"></div>
+</section>
+  <!-- End Portfolio Seciton -->
+
+  <!-- Start Review Seciton -->
+ 
+  <!-- End Review Seciton -->
+
+  <!-- Start porfolio Seciton -->
+<section id="portfolio">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">Portfolio</h4>
+      
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+
+  <div class="container">
+    <div class="row st-certificate-row"> <!-- Added special row class -->
+      <!-- Certificate 1 -->
+      <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/learning graphic design (1).png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/learning graphic design (1).png" alt="My Design for Merahyan">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>My Design for Merahyan</h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/f.png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/f.png" alt="My Design for Green Wheels  ">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>My Design for Green Wheels </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/Copy of merahyan learning courses  (1280 × 1280 px).png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/Copy of merahyan learning courses  (1280 × 1280 px).png" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>My Design for Merahyan </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+  <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/gg.png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/gg.png" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5></h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+     <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/Graphic Design (2).png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/Graphic Design (2).png" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>My Design for Merahyan </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  <!-- Certificate 5 -->
+     <div class="col-lg-4 col-md-6 st-certificate-col">
+        <div class="st-portfolio-single st-style1 st-lightgallery st-certificate-card">
+          <div class="st-portfolio-item">
+            <a href="assets/img/portfolio/FINAL.png" class="st-portfolio st-zoom st-lightbox-item">
+              <div class="st-portfolio-img st-zoom-in st-img-container">
+                <img src="assets/img/portfolio/FINAL.png" alt="Internship Certificate">
+              </div>
+              <div class="st-portfolio-item-hover">
+                <i class="fas fa-plus-circle"></i>
+                <h5>My Design for Merahyan </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <!-- Load More Button -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="st-portfolio-btn">
+          <a href="#" class="st-btn st-style1 st-color1">Load More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="st-height-b100 st-height-lg-b80"></div>
+</section>
+
+  <!-- End Blog Seciton -->
+
+  <!-- Start Contact Seciton -->
+  
+
+  <section id="contact" class="st-dark-bg">
+  <div class="st-height-b100 st-height-lg-b80"></div>
+  <div class="container">
+    <div class="st-section-heading st-style1">
+      <h4 class="st-section-heading-title">CONTACT ME</h4>
+      <h2 class="st-section-heading-subtitle">CONTACT ME</h2>
+    </div>
+    <div class="st-height-b25 st-height-lg-b25"></div>
+  </div>
+
+  <!-- Contact Container -->
+  <div class="container">
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <h3 class="st-contact-title">Just say Hello</h3>
+        <div id="st-alert"></div>
+        <form action="https://formspree.io/f/yourFormID" method="POST" class="st-contact-form" id="contact-form">
+          <div class="st-form-field">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="st-form-field">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="st-form-field">
+            <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
+          </div>
+          <div class="st-form-field">
+            <textarea cols="30" rows="10" id="msg" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button class="st-btn st-style1 st-color1" type="submit" id="submit" name="submit">Send message</button>
+        </form>
+      </div>
+
+      <div class="st-height-b0 st-height-lg-b30"></div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-6">
+        <div class="st-height-b0 st-height-lg-b40"></div>
+        <h3 class="st-contact-title">Contact Info</h3>
+        <div class="st-contact-text">
+          Feel free to reach out with any questions or project inquiries. I’m always open to discussing new ideas, creative work, or opportunities to be part of your vision.
+        </div>
+        <div class="st-contact-info-wrap">
+          <div class="st-single-contact-info">
+            <i class="fas fa-envelope"></i>
+            <div class="st-single-info-details">
+              <h4>Email</h4>
+              <a href="mailto:Kalkidanzhani@gmail.com">Kalkidanzhani@gmail.com</a>
+            </div>
+          </div>
+          <div class="st-single-contact-info">
+            <i class="fas fa-phone-alt"></i>
+            <div class="st-single-info-details">
+              <h4>Phone</h4>
+              <span>0919805862</span>
+            </div>
+          </div>
+          <div class="st-single-contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="st-single-info-details">
+              <h4>Address</h4>
+              <span>Addis Ababa, Ethiopia</span>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="st-social-info">
+            <div class="st-social-text">Visit my social profile and get connected</div>
+            <div class="st-social-link">
+              <a href="https://www.linkedin.com/in/kalkidan-zewdu-0856" class="st-social-btn active" target="_blank">
+                <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+                <span class="st-icon-name">LinkedIn</span>
+              </a>
+              <a href="https://www.instagram.com/kalkidan0856/" class="st-social-btn" target="_blank">
+                <span class="st-social-icon"><i class="fab fa-instagram"></i></span>
+                <span class="st-icon-name">Instagram</span>
+              </a>
+              <a href="https://www.tiktok.com/@kellylandrandomvlog" class="st-social-btn" target="_blank">
+                <span class="st-social-icon"><i class="fab fa-tiktok"></i></span>
+                <span class="st-icon-name">TikTok</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="st-height-b100 st-height-lg-b80"></div>
+</section>
+
+
+  <!-- End Contact Seciton -->
+
+  <!-- Start Footer Seciton -->
+   <footer style="width:100%;height:10vh;display:flex;align-items:center;justify-content:center;">
+  <div class="container" style="width:100%;">
+    <div class="st-copyright-wrap text-center">
+      <div class="st-copyright-text">© 2025. Designed by Reflection. All right reserved.</div>
+    </div>
+  </div>
+</footer>
+  <!-- End Footer Seciton -->
+
+  <!-- Scripts -->
+   <script>
+    
+   </script>
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/jquery.slick.min.js"></script>
+  <script src="assets/js/lightgallery.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/ripples.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
